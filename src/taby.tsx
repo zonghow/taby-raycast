@@ -130,6 +130,7 @@ export default function Command() {
       isLoading={isLoading}
       onSearchTextChange={setSearchText}
       searchText={searchText}
+      searchBarPlaceholder="Search cards by pinyin, title, description, url"
       searchBarAccessory={
         selectedSpace ? (
           <List.Dropdown
@@ -167,7 +168,7 @@ export default function Command() {
                 <ActionPanel>
                   <Action.OpenInBrowser url={card.url} />
                   <Action
-                    icon={Icon.List}
+                    icon={Icon.AirplaneTakeoff}
                     title="Open Current Collection Cards"
                     onAction={() => openCurrentCollectionCards(collection.id)}
                   />
