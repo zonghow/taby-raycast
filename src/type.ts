@@ -77,23 +77,6 @@ export type iOptions = iOption[];
 export type movePosition = "HEAD" | "END";
 export type layoutMode = "collapse" | "expand" | "hover";
 
-export type iSetting = {
-  language: "zh-CN" | "en-US";
-  theme: "light" | "dark";
-  openInNewWindow: boolean;
-  hideRightClickMenu: boolean;
-  saveAfterOperationTime: number;
-  openCardsInGroup: boolean;
-  shortcutSettings: {
-    saveAllTabs: string;
-    saveAllTabsAndClose: string;
-    closeDuplicateTabs: string;
-    closeAllTabs: string;
-    globalSearch: string;
-    openTagFilter: string;
-  };
-};
-
 export interface ExportSpace {
   title: string;
   icon: string;

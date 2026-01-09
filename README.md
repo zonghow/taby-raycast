@@ -1,4 +1,4 @@
-# Taby Changelog
+# Taby Extension
 
 [Raycast](https://www.raycast.com/) extension for [Taby](https://github.com/gp0119/Taby).
 
